@@ -1,0 +1,27 @@
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        JFrame jframe = new JFrame();
+                int number1 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero voce queira somar"));
+        int number2 = Integer.parseInt(JOptionPane.showInputDialog("Mais quanto"));
+                        var somado = number1 + number2;
+                            JOptionPane.showMessageDialog(jframe, "Somado " + somado);
+                                int number3 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero voce queira subtrair"));
+                int number4 = Integer.parseInt(JOptionPane.showInputDialog("Menos quanto"));
+                                            var subtraido = number3 - number4;
+                                    JOptionPane.showMessageDialog(jframe, "Subtraido " + subtraido);
+        int number5 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero  voce queira multiplicar"));
+                                    int number6 = Integer.parseInt(JOptionPane.showInputDialog("Vezes quanto"));
+                                        var multiplicando = number5 * number6;
+                                            JOptionPane.showMessageDialog(jframe, "Multiplicado " + multiplicando);
+                                                int number7 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero voce queira dividir"));
+    int number8 = Integer.parseInt(JOptionPane.showInputDialog("Dividindo por qual"));
+        var dividindo = number7 / number8;
+                                                    JOptionPane.showMessageDialog(jframe, "Dividido por " + dividindo);
+    }
+                     //este programa serve para fazer contas
+                //ainda esta em beta, esta na build 22567
+
+}
+
